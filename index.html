@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Slide Show</title>
+</head>
+<body>
+    <div class="container">
+        <div class="slideShow">
+            <div class="slide">
+                <img src="./img/1.jpg" alt="auto">
+            </div>
+            <div class="slide">
+                <img src="./img/2.png" alt="bird">
+            </div>
+            <div class="slide">
+                <img src="./img/3.jpg" alt="cartoon">
+            </div>
+            <div class="slide">
+                <img src="./img/4.png" alt="abstract">
+            </div>
+        </div>
+        <div class="control">
+            <a class="prev" onclick="plus(-1)">&#8249;</a>
+            <div class="dots">
+                <span class="dot" onclick="current(1)"></span>
+                <span class="dot" onclick="current(2)"></span>
+                <span class="dot" onclick="current(3)"></span>
+                <span class="dot" onclick="current(4)"></span>
+            </div>
+            <a class="next" onclick="plus(1)">&#8250;</a>
+        </div>
+        <script src="./scripts/script.js">
+            
+        </script>
+    </div>
+</body>
+</html>
